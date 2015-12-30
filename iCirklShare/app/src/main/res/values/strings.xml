@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">iCirklShare</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <string name="fb_app_id">502732276574005</string>
+    <string name="term">Terms &amp; Privacy</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="err_msg_email">Enter valid email address</string>
+    <string name="err_msg_password">Enter the password</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home_fragment">HomeFragmentActivity</string>
+    <string name="title_activity_registration">RegistrationActivity</string>
+    <string name="title_activity_forgot">ForgotActivity</string>
+    <string name="myCirkl">My Cirkls</string>
+    <string name="myrequest">My Requests</string>
+    <string name="round_me">Around Me</string>
+    <string name="chat">Chat</string>
+    <string name="contact">Contacts</string>
+    <string name="setting">Setting</string>
+    <string name="intractive_contact">Inactive Contacts</string>
+    <string name="option">Add Photo/Set Color</string>
+
+    <string name="pubic">Public</string>
+    <string name="create_new_cirkl">Create New Cirkl</string>
+    <string name="or">Or</string>
+
+    <string name="pri">Private</string>
+
+
+    <string-array name="navigationitem">
+        <item>My Cirkls</item>
+        <item>My Requests</item>
+        <item>Around Me</item>
+        <item>Chat</item>
+        <item>Contacts</item>
+        <item>Inactive Contacts</item>
+        <item>Settings</item>
+
+    </string-array>
+
+    <string-array name="setting">
+
+        <item>Customize Alerts</item>
+        <item>Upgrade</item>
+        <item>Add Free</item>
+        <item>Chat</item>
+        <item>Change Password</item>
+        <item>Change Language</item>
+        <item>Theme</item>
+        <item>Privacy</item>
+        <item>Block requests</item>
+        <item>Block public Chat</item>
+        <item>Block Private Chat</item>
+        <item>Contact Us</item>
+        <item>Logout</item>
+
+    </string-array>
+</resources>

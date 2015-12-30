@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+ android:gravity="center"
+    android:orientation="vertical"
+
+    android:layout_height="wrap_content">
+
+
+    <ImageButton
+        android:id="@+id/bt_gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/gallery_btn" />
+
+    <ImageButton
+        android:id="@+id/bt_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/camera_btn" />
+
+
+
+    <com.icrklshare_Helper.custom.TextView_Roboto_Regular
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/or"
+        android:textSize="18dp"
+        android:padding="10dp"
+        android:textColor="#ffffff"
+        />
+
+
+    <ImageButton
+        android:id="@+id/bt_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/color_btn" />
+
+</LinearLayout>

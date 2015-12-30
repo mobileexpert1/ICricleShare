@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/background"
+            android:gravity="center_horizontal"
+
+            android:orientation="vertical">
+
+
+            <com.icrklshare_Helper.custom.RoundedImageView
+                android:id="@+id/img_selector"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="40dp"
+
+
+
+                android:background="@drawable/add_img"
+
+                />
+
+            <RelativeLayout
+                android:id="@+id/img2"
+                android:background="@drawable/roundlayout"
+                android:layout_marginTop="40dp"
+                android:visibility="gone"
+                android:layout_width="80dp"
+                android:layout_height="80dp">
+
+            </RelativeLayout>
+
+
+            <com.icrklshare_Helper.custom.TextView_Roboto_Regular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:padding="10dp"
+                android:text="@string/option"
+                android:textColor="#ffffff"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/divider"
+
+                />
+
+            <com.icrklshare_Helper.custom.EditText_Roboto_Regular
+                android:id="@+id/et_cirkl_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/name_txt_box"
+                android:gravity="center"
+                android:hint="Enter Cirkl Name"
+                android:padding="5dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/divider"
+
+                />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp">
+
+                <com.icrklshare_Helper.custom.TextView_Roboto_Regular
+                    android:id="@+id/tv_public"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:padding="5dp"
+                    android:text="@string/pubic"
+                    android:textColor="@android:color/white"
+                    android:textSize="18dp" />
+
+                <RadioGroup
+                    android:id="@+id/radiogroup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/tv_public"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rb_public"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/chk_dot"
+                        android:checked="true"
+                        android:paddingLeft="30dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb_private"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/chk_dot" />
+                </RadioGroup>
+
+                <com.icrklshare_Helper.custom.TextView_Roboto_Regular
+                    android:id="@+id/tv_private"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/radiogroup"
+                    android:padding="5dp"
+                    android:text="@string/pri"
+                    android:textColor="@android:color/white"
+                    android:textSize="18dp" />
+
+
+            </RelativeLayout>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/divider"
+
+                />
+
+            <ImageView
+                android:id="@+id/bt_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/next_btn"
+
+                />
+
+        </LinearLayout>
+
+
+
+</RelativeLayout>

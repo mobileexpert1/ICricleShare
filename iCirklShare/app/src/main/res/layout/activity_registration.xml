@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".SplashActivity">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/main_logo" />
+
+
+
+        <com.icrklshare_Helper.custom.EditText_Roboto_Regular
+            android:id="@+id/et_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/back_line"
+            android:gravity="center"
+            android:hint="Name"
+
+            android:paddingBottom="10dp"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/hint_color"
+            android:textSize="18dp" />
+
+        <com.icrklshare_Helper.custom.EditText_Roboto_Regular
+            android:id="@+id/et_emal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/back_line"
+            android:gravity="center"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:paddingBottom="10dp"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/hint_color"
+            android:textSize="18dp" />
+        <com.icrklshare_Helper.custom.EditText_Roboto_Regular
+            android:id="@+id/et_phone_number"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/back_line"
+            android:gravity="center"
+            android:hint="Phone Number"
+            android:inputType="number"
+            android:paddingBottom="10dp"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/hint_color"
+            android:textSize="18dp" />
+        <com.icrklshare_Helper.custom.EditText_Roboto_Regular
+            android:id="@+id/et_password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/back_line"
+            android:gravity="center"
+            android:hint="Password"
+            android:inputType="numberPassword"
+            android:paddingBottom="10dp"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/hint_color"
+            android:textSize="18dp" />
+        <com.icrklshare_Helper.custom.EditText_Roboto_Regular
+            android:id="@+id/et_conform_password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/back_line"
+            android:gravity="center"
+            android:hint="Conform Password"
+            android:inputType="numberPassword"
+            android:paddingBottom="10dp"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/hint_color"
+            android:textSize="18dp" />
+
+        <com.icrklshare_Helper.custom.Button_Roboto_Regular
+            android:id="@+id/bt_login"
+            android:layout_width="fill_parent"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Register"
+            android:textSize="18dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/btn_selector" />
+
+
+
+
+
+
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
